@@ -2,37 +2,66 @@ header, hgroup, nav, footer, figure, figcaption, aside, section, article {
 	display: block;
 }
 body {
-	background-color: ;
+	background-image: url(ptrbackground.jpg);
+	background-repeat: repeat-x;
+	background-color: #00569f;
 	color: #666666;
 	font-family: Arial, Helvetica, sans-serif;
 }
 
+#wrapper {
+	width: 80vw;
+	min-width: 600px;
+}
+
+nav {
+	background: rgb(121, 205, 238);
+	padding: 5px 1px;
+	width: 200px;
+	/* color: #000033; */
+}
 nav ul {
 	font-size: 1.2em;
+	list-style-type: none;
 }
-nav a:visited {
-	color: #344873;
+
+nav a {
+	/* color: #344873; */
+	color: #000033;
+	text-decoration: none;
 }
+
 nav a:hover {
 	color: #FFFFFF;
 }
+
 h1 {
 	margin-bottom: 0;
 	padding: 10px;
+	color: white;
+	background-image: url(sunset.jpg);
+	background-repeat: no-repeat;
+	background-position: right top;
+	background-clip: border-box;
+	background-size: initial;
 }
 h2 {
 	color: #3399CC;
 }
+
 h1,
 h2 {
 	font-family: Georgia, "Times New Roman", serif;
 }
+
 #contact {
 	font-size: 90%;
 }
-dt {
+
+/* dt {
 	color: #000033;
-}
+} */
+
 footer {
 	font-family: Georgia, "Times New Roman", serif;
 }
